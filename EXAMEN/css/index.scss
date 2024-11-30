@@ -1,0 +1,210 @@
+
+/*tipo letra*/
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/*mixin */
+
+@mixin efectosombra{
+    background-position: center;
+    padding-bottom: 200px;
+    box-shadow:black;
+    background-color: rgb(100, 100, 100);
+    background-blend-mode: multiply;
+}
+
+@mixin efectoparallax{
+    background-position: center;
+    background-size: cover;
+    box-shadow:black;
+    background-color: rgb(100, 100, 100);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin botones{
+    margin-top: 10px;
+    color: #ffe4c4;
+    background-color: $maincolor;
+    width: 150px;
+    height: 65px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    &:hover{
+        color: #791214 ;
+        background-color:#ffe4c4 ;
+    }
+}
+
+@mixin scrolltop{
+    position: fixed;
+    height: 55px;
+    width: 55px;
+    background-color: #791214;
+    right: 10px;
+    bottom: 30px;
+    text-align: center;
+    line-height: 45px;
+    color: bisque;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* variables */
+$maincolor: #791214;
+$secundarycolor:bisque;
+$letraparrafo: 1.5rem;
+$letrah2: 2.5rem;
+$letrah3: 2.0rem;
+$tamanoicono: 3.75rem;
+$fuentecaligrafia: 'Birthstone';
+$coloazul: rgb(43, 89, 218);
+$colororo: goldenrod;
+$colorrojo: red;
+
+h2{
+    color: $maincolor;
+    font-size: $letrah2;
+}
+
+h3{
+    font-size: $letrah3;
+    color: white;
+}
+
+p{
+    color: black;
+}
+
+i{
+    font-size: $tamanoicono;
+}
+
+.boton{
+    @include botones();
+}
+
+nav{
+    background-color: black;
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+.nav-item a{
+    font-size: $letraparrafo;
+    text-decoration: none;
+    color: $maincolor;
+    transition: all 0.5s ease-out;
+    &:hover{
+        color: bisque;
+    }
+}
+
+.navbar i{
+    font-size: $tamanoicono;
+    color: $maincolor;
+    &:hover{
+        color: bisque;
+    }
+}
+
+.section1 p{
+    font-family: $fuentecaligrafia;
+    font-size: $tamanoicono;
+    color: white;
+    padding-top: 240px;
+}
+
+.section1{
+    background-image: url(../img/harrypotter.jpg);
+    @include efectosombra();
+}
+
+.titulo2{
+    text-align: center;
+}
+
+.section3{
+    background-color: black;
+}
+
+
+
+
+.section4{
+    background-image: url(../img/trenharry.jpg);
+    @include efectoparallax();
+}
+
+.section4 h2{
+    color: white;
+}
+
+.section4 p{
+    color: white;
+}
+
+.discapacidad{
+    color: $coloazul;
+}
+
+.seguridad{
+    color: $colororo;
+}
+
+.ninos{
+    color: $colorrojo;
+}
+
+.section5 h3{
+    color: black;
+}
+
+.section6{
+    background-color: $maincolor;
+}
+.section6 h2{
+    color: bisque;
+}
+.section6 i, .section6 p{
+    color: white;
+
+}
+
+.section6 p{
+    font-size: $letrah3;
+}
+
+.facebook:hover{
+    color: #405483 ;
+}
+
+.instagram:hover{
+    color:#df4462;
+} 
+
+.mapa{
+    width: 100%;
+    height: 400px;
+}
+
+.botonScrollTop{
+    @include scrolltop();
+}
+
+footer{
+    background-color: $maincolor;
+    height: 150px;
+}
+
+footer h2{
+    font-size: $letrah2;
+    color: $secundarycolor;
+}

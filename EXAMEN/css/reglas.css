@@ -1,0 +1,80 @@
+        /*MEDIAS QUERYS*/
+
+        /* Extra Small devices (landscape phones, 576px and down)*/
+
+        @media (max-width: 576px) {
+            .animacion1 {
+                width: 250px;
+                height: 250px;
+            }
+
+            .animacion2{
+                width: 340px;
+                height: 340px;
+            }
+
+            .navbar i{
+                font-size: 30px;
+            }
+
+            .nav{
+                height: 40px;
+            }
+
+            .section6 p{
+                font-size: 30px;
+            }
+            .botonScrollTop i{
+                font-size: 50px;
+            }
+
+            footer h2{
+                font-size: 20px;
+            }
+        }
+
+
+        /* Small devices (landscape phones, 576px and up)*/
+
+        @media (min-width: 576px) {
+            .animacion1 {
+                width: 200px;
+                height: 200px;
+            }
+
+            .animacion2{
+                width: 500px;
+                height: 450px;
+                
+            }
+
+        }
+
+
+        /* Medium devices (tablets, 768px and up) */
+
+        @media (min-width: 768px) {}
+
+
+        /* Large devices (desktops, 992px and up) */
+
+        @media (min-width: 992px) {
+
+            .section4{
+                height: 750px;
+            }
+        }
+
+
+        /* X-Large devices (large desktops, 1200px and up) */
+
+        @media (min-width: 1200px) {
+            .navbar{
+                height: 80px;
+            }
+        }
+
+
+        /* XX-Large devices (larger desktops, 1400px and up) */
+
+        @media (min-width: 1400px) {}
