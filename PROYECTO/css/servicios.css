@@ -1,0 +1,58 @@
+
+.serviciossection2{
+    height: 110vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.serviciossection2 h2, .serviciossection2 p{
+    color: white;
+}
+
+.serviciossection3{
+    background-color: black;
+}
+
+.serviciossection3 h3, .serviciossection3 label{
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    border-top: solid gold 3px;
+}
+
+.formulario i{
+    color: goldenrod;
+    font-size: 60px;
+    cursor: pointer;
+}
+
+.formulario i:hover{
+    color: white;
+}
+
+.serviciossection1{
+    background-color: black;
+
+}
+
+.serviciossection1 p, .serviciossection1 h1{
+    color: white;
+}
+
+.serviciossection1 p{
+    font-size: 20px;
+}
+
+.formulario label{
+    font-size: 20px;
+    
+}
+
+.list-group li{
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+}

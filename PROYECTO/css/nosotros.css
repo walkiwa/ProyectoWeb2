@@ -1,0 +1,53 @@
+
+
+.section1{
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+.tituloNosotros{
+    color: white;
+    
+}
+
+.accordion-button{
+    background-color: black;
+    color: white !important;
+    font-size: 20px;
+    border: none;
+
+}
+
+.accordion-button:focus {
+    color: white !important;
+    background-color: black;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: black;
+    color: white;
+}
+
+.accordion-button:is(.collapsed)::after {
+    box-shadow: none;
+    background-color: #fff;
+}
+
+.accordion-button:not(.collapsed)::after {
+    box-shadow: none;
+    background-color: #fff;
+}
+
+.justificar{
+    text-align: justify;
+    text-indent: 0rem;
+    margin: 0;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    border-top: solid gold 3px;
+}
+

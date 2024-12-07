@@ -1,0 +1,36 @@
+.navbar {
+    background-color: black;
+    border-bottom: solid gold 1px;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.nav-item a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+}
+
+.nav-item a:hover {
+    color: bisque;
+}
+
+.navbar i {
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.navbar i:hover {
+    color: goldenrod;
+}

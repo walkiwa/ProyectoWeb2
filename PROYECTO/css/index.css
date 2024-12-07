@@ -1,0 +1,70 @@
+
+
+
+.carousel img{
+    height: 650px;
+}
+
+.card{
+    border: none;
+    
+}
+
+.divisor1{
+    background-color: black;
+    height: 250px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 20%, 0 70%, 0 0);
+}
+
+.divisor2{
+    background-color: black;
+
+    height: 250px;
+    /*clip-path: polygon(50% 0%, 100% 0, 100% 50%, 0 20%, 0 0);*/
+    clip-path: polygon(0 89%, 100% 50%, 100% 100%, 0% 100%);
+}
+
+.iconografia i{
+    font-size: 50px;
+    color: goldenrod;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    border-top: solid gold 3px;
+}
+
+.mapa{
+    height: 500px;
+    width: 100%;
+}
+
+.iconografia i{
+    cursor: pointer;
+}
+
+.section2{
+    background-color: black;
+}
+
+.card-text{
+    color: white;
+    font-size: 25px;
+}
+
+.card-title{
+    color: goldenrod;
+    font-size: 40px;
+}
+
+
+
+.section3{
+    background-color: black;
+}
+
+.section3 h3{
+    font-size: 30px;
+    color: white;
+}

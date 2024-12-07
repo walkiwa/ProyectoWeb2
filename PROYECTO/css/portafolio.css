@@ -1,0 +1,35 @@
+
+
+
+.imagenhorizontal{
+    width: 650px;
+    height: 250px;
+}
+
+.imagenvertical{
+    height: 750px;
+    width: 50%;
+}
+
+.horizontal1{
+    padding-right: 2.5px;
+}
+
+.horizontal2{
+    padding-left: 2.5px;
+}
+
+.verticales{
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+}
+
+.section1{
+    background-color: black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    border-top: solid gold 1px;
+}

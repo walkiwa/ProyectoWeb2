@@ -1,0 +1,57 @@
+
+
+.estudio{
+    background-image: url(../img/estudio.jpg);
+}
+
+.eventos{
+    background-image: url(../img/eventos.jpg);
+}
+
+.animales{
+    background-image: url(../img/animales.jpg);
+}
+
+.retratos{
+    background-image: url(../img/retratos.jpg);
+}
+
+.paisajes{
+    background-image: url(../img/paisajes.jpg);
+}
+
+.divgaleria{
+    background-color: rgba(0, 0, 0, 0.2);
+    background-position: center;
+    background-blend-mode: multiply;
+    height: 50vh;
+    width: 100%;
+}
+
+.divgaleria:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+ h2, p{
+    color: white;
+}
+
+.galeriasection1{
+    background-color: black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    border-top: solid gold 1px;
+}
+
+.galeriatexto p{
+    font-size: 25px;
+    font-weight: 500;
+}
